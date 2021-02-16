@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist/": true,
+    "**/yarn.lock": true,
+    "**/.cache/**/*": true,
+    "**/bazel-*/**/*": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [80],
+  "clang-format.style": "Google",
+  "files.insertFinalNewline": true,
+  "editor.detectIndentation": false,
+  "editor.wrappingIndent": "none",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "clang-format.executable": "${workspaceRoot}/node_modules/.bin/clang-format",
+  "files.associations": {
+    "cstddef": "cpp",
+    "cstdint": "cpp"
+  },
+  "editor.formatOnSave": true
+}
